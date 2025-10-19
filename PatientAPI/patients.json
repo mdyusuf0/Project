@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Aarav Mehta",
+    "age": 28,
+    "gender": "Male",
+    "height_cm": 175,
+    "weight_kg": 70,
+    "city": "Mumbai",
+    "bmi": 22.86,
+    "verdict": "Normal weight"
+  },
+  {
+    "name": "Priya Sharma",
+    "age": 34,
+    "gender": "Female",
+    "height_cm": 160,
+    "weight_kg": 85,
+    "city": "Delhi",
+    "bmi": 33.2,
+    "verdict": "Obese"
+  },
+  {
+    "name": "Ravi",
+    "age": 34,
+    "gender": "Male",
+    "height_cm": 168,
+    "weight_kg": 90,
+    "city": "Bangalore",
+    "bmi": 31.89,
+    "verdict": "Obese"
+  },
+  {
+    "name": "Sneha",
+    "age": 22,
+    "gender": "Female",
+    "height_cm": 155,
+    "weight_kg": 48,
+    "city": "Pune",
+    "bmi": 19.97,
+    "verdict": "Normal weight"
+  },
+  {
+    "name": "Manish Verma",
+    "age": 36,
+    "gender": "Male",
+    "height_cm": 182,
+    "weight_kg": 95,
+    "city": "Jaipur",
+    "bmi": 28.68,
+    "verdict": "Overweight"
+  }
+]
