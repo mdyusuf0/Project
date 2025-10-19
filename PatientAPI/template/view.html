@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Patient Records</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; background-color: #f2f2f2; }
+        table { border-collapse: collapse; width: 100%; background-color: white; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: center; }
+        th { background-color: #FF0000; color: white; }
+    </style>
+</head>
+<body>
+    <h1>Patient Records</h1>
+    <table>
+        <tr>
+            <th>Name</th><th>Age</th><th>Gender</th><th>City</th>
+            <th>Height (cm)</th><th>Weight (kg)</th>
+            <th>BMI</th><th>Verdict</th>
+        </tr>
+        {% for patient in patients %}
+        <tr>
+            <td>{{ patient.name }}</td>
+            <td>{{ patient.age }}</td>
+            <td>{{ patient.gender }}</td>
+            <td>{{ patient.city }}</td>
+            <td>{{ patient.height_cm }}</td>
+            <td>{{ patient.weight_kg }}</td>
+            <td>{{ patient.bmi }}</td>
+            <td>{{ patient.verdict }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+</body>
+</html>
